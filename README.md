@@ -21,16 +21,17 @@ Mzda se vypočítává z odpracované hodiny (tu si skript převezme připraven�
 
 **Vstup:**
 
-<img src="https://www.edumach.cz/img/dpc1.png" width=200 style="border:1px solid">
+<img src="https://www.edumach.cz/img/dpc_1.png" width=200>
 
 **Příklad výstupu pro <= 4000 Kč:** 
 
-<img src="https://www.edumach.cz/img/dpc2.png" width=200 style="border:1px solid">
+<img src="https://www.edumach.cz/img/dpc_2.png" width=200>
 
 **Příklad výstupu pro > 4000 Kč:**
 
-<img src="https://www.edumach.cz/img/dpc3.png" width=200 style="border:1px solid">
+<img src="https://www.edumach.cz/img/dpc_3.png" width=200>
 
 
 ## Možné rozšíření
 - Skript si na vstupu převezme formulářem také hodinovou sazbu.
+
