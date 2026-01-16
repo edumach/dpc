@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulačka mzdy brigádníka</title>
+  <style>
+    body {
+      max-width: 600px;
+      padding: 1em;
+      margin: auto;
+	  font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+<h1>Kalkulačka mzdy brigádníka</h1>
+<p>Vytvořte PHP skript <b>~/www/dpc/index.php</b>, který bude fungovat jako kalkulačka pro výpočet čisté mzdy na "Dohodu o pracovní činnosti" (DPČ).</p>
+<p>Mzda se vypočítává z odpracované hodiny (tu si skript převezme formulářem). Hodinová sazba je 100&nbsp;Kč za hodinu, což je hrubá mzda brigádníka. Daň z&nbsp;příjmů (co platíme státu) je 15&nbsp;% a tu platíme vždy. V případě, že příjem přesáhne 4000&nbsp;Kč, tak se z hrubého příjmu bude odečítat ještě zdravotní (4,5&nbsp;%) a sociální pojištění (6,5&nbsp;%).</p>        
+
+<hr>
+
+<form method="post">
+    <p><input type="number" placeholder="Odpracované hodiny" min="1" name="h" required>
+    <input type="submit" value="Vypočítat"></p>
+</form>
+
+
+</body>
+</html>
