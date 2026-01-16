@@ -21,10 +21,26 @@
 <hr>
 
 <form method="post">
-    <p><input type="number" placeholder="Odpracované hodiny" min="1" name="h" required>
-    <input type="submit" value="Vypočítat"></p>
+  <p>
+    <input type="number" placeholder="Odpracované hodiny" min="1" name="h" required>
+    <input type="submit" value="Vypočítat">
+  </p>
 </form>
 
+<?php
+if ($_POST) // pokračuje, pokud je něco v $_POST (TRUE), jinak se nic neděje (FALSE)
+{
+  $hodiny = $_POST["h"]; // v proměnné $hodiny je načtené číslo z formuláře 
+  // níže bude kód i výstup
+
+
+
+
+
+
+  // konec PHP skriptu
+}
+?>
 
 </body>
 </html>
